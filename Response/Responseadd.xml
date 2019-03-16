@@ -1,0 +1,1 @@
+<?xml version="1.0" ?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:addResponse xmlns:ns2="http://soap.testcalc.qa.ataccama.com/"><return>40</return></ns2:addResponse></S:Body></S:Envelope>

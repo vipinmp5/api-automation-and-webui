@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [API Testing Suite]">
+  <test name="APITest(failed)">
+    <classes>
+      <class name="com.ataccama.test.WebUITest">
+        <methods>
+          <include name="verifyTestCalculateUI" invocation-numbers="0 1 2 3"/>
+          <include name="afterTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ataccama.test.WebUITest -->
+      <class name="com.ataccama.test.RestApiPostTest">
+        <methods>
+          <include name="verifyPostResponseTest" invocation-numbers="1 2 3"/>
+          <include name="afterTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ataccama.test.RestApiPostTest -->
+    </classes>
+  </test> <!-- APITest(failed) -->
+</suite> <!-- Failed suite [API Testing Suite] -->

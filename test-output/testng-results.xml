@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="10" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Testing Suite" duration-ms="6918" started-at="2019-03-16T21:43:50Z" finished-at="2019-03-16T21:43:57Z">
+    <groups>
+    </groups>
+    <test name="APITest" duration-ms="6918" started-at="2019-03-16T21:43:50Z" finished-at="2019-03-16T21:43:57Z">
+      <class name="com.ataccama.test.SoapAPITest">
+        <test-method status="PASS" signature="verifySOAPAPIResponse(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ataccama.test.SoapAPITest@64bf3bbf]" name="verifySOAPAPIResponse" duration-ms="35" started-at="2019-03-17T03:13:56Z" data-provider="TestData" finished-at="2019-03-17T03:13:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[add]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySOAPAPIResponse -->
+        <test-method status="PASS" signature="verifySOAPAPIResponse(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ataccama.test.SoapAPITest@64bf3bbf]" name="verifySOAPAPIResponse" duration-ms="22" started-at="2019-03-17T03:13:56Z" data-provider="TestData" finished-at="2019-03-17T03:13:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[multiply]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySOAPAPIResponse -->
+        <test-method status="PASS" signature="verifySOAPAPIResponse(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ataccama.test.SoapAPITest@64bf3bbf]" name="verifySOAPAPIResponse" duration-ms="16" started-at="2019-03-17T03:13:56Z" data-provider="TestData" finished-at="2019-03-17T03:13:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divide]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySOAPAPIResponse -->
+        <test-method status="PASS" signature="verifySOAPAPIResponse(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ataccama.test.SoapAPITest@64bf3bbf]" name="verifySOAPAPIResponse" duration-ms="17" started-at="2019-03-17T03:13:56Z" data-provider="TestData" finished-at="2019-03-17T03:13:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subtract]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySOAPAPIResponse -->
+      </class> <!-- com.ataccama.test.SoapAPITest -->
+      <class name="com.ataccama.test.WebUITest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ataccama.test.WebUITest@64bfbc86]" name="setup" is-config="true" duration-ms="4744" started-at="2019-03-17T03:13:50Z" finished-at="2019-03-17T03:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTestCalculateUI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ataccama.test.WebUITest@64bfbc86]" name="verifyTestCalculateUI" duration-ms="302" started-at="2019-03-17T03:13:55Z" data-provider="TestData" finished-at="2019-03-17T03:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[add]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestCalculateUI -->
+        <test-method status="PASS" signature="verifyTestCalculateUI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ataccama.test.WebUITest@64bfbc86]" name="verifyTestCalculateUI" duration-ms="240" started-at="2019-03-17T03:13:55Z" data-provider="TestData" finished-at="2019-03-17T03:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestCalculateUI -->
+        <test-method status="PASS" signature="verifyTestCalculateUI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ataccama.test.WebUITest@64bfbc86]" name="verifyTestCalculateUI" duration-ms="223" started-at="2019-03-17T03:13:55Z" data-provider="TestData" finished-at="2019-03-17T03:13:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[div]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestCalculateUI -->
+        <test-method status="PASS" signature="verifyTestCalculateUI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ataccama.test.WebUITest@64bfbc86]" name="verifyTestCalculateUI" duration-ms="233" started-at="2019-03-17T03:13:56Z" data-provider="TestData" finished-at="2019-03-17T03:13:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestCalculateUI -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ataccama.test.WebUITest@64bfbc86]" name="afterTest" is-config="true" duration-ms="653" started-at="2019-03-17T03:13:56Z" finished-at="2019-03-17T03:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ataccama.test.WebUITest -->
+    </test> <!-- APITest -->
+  </suite> <!-- API Testing Suite -->
+</testng-results>
