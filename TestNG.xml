@@ -1,12 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="API Testing Suite" verbose="1" >
-    <test name="APITest" >
-        <classes>
-            <!--  class name="com.ataccama.test.RestApiGetTest" /-->
-            <!--  class name="com.ataccama.test.RestApiPostTest" /-->
-            <class name="com.ataccama.test.WebUITest" />
-            <class name="com.ataccama.test.SoapAPITest" />
-        </classes>
-    </test>
+<suite name="API Testing Suite" verbose="1">
+	<test name="APITest">
+		<classes>
+			<!--  class name="com.ataccama.test.RestApiGetTest" /-->
+			<!--  class name="com.ataccama.test.RestApiPostTest" /-->
+			<class name="com.ataccama.test.WebUITest" />
+			<class name="com.ataccama.test.SoapAPITest" />
+		</classes>
+	</test>
 </suite>
